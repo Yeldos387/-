@@ -1,0 +1,13 @@
+package com.company;
+
+public class Main{
+    public static void main(String[] args) {
+        MainFrame mainFrame = new MainFrame();
+        mainFrame.setVisible(true);
+    }
+
+    private static class MainFrame {
+        public void setVisible(boolean b) {
+        }
+    }
+}
